@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "LogisticsPro",
+  title: "Skywave Logistics",
   description:
     "Comprehensive Logistics Services Tailored solutions to optimize your supply chain and drive business growth",
   generator: "v0.dev",

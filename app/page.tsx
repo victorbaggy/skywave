@@ -46,7 +46,7 @@ function Header() {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <Truck className="h-6 w-6 text-primary" />
-          <span className="text-xl font-bold">LogisticsPro</span>
+          <span className="text-xl font-bold">Skywave Logistics</span>
         </div>
 
         <nav className="hidden md:flex items-center gap-6">
@@ -304,13 +304,13 @@ function AboutSection() {
 
           <div className="space-y-6">
             <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">
-              About LogisticsPro
+              About Skywave Logistics
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
               25+ Years of Excellence in Global Logistics
             </h2>
             <p className="text-muted-foreground">
-              Founded in 1998, LogisticsPro has grown from a small regional
+              Founded in 1998, Skywave Logistics has grown from a small regional
               carrier to a global logistics provider. Our mission is to connect
               businesses to markets with reliable, efficient, and sustainable
               logistics solutions.
@@ -368,7 +368,7 @@ function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        "LogisticsPro transformed our supply chain, reducing costs by 23% and improving delivery times across our global network.",
+        "Skywave Logistics transformed our supply chain, reducing costs by 23% and improving delivery times across our global network.",
       author: "Sarah Johnson",
       position: "Supply Chain Director, TechGlobal Inc.",
     },
@@ -380,7 +380,7 @@ function TestimonialsSection() {
     },
     {
       quote:
-        "We've worked with many logistics providers, but none match the reliability and transparency that LogisticsPro delivers.",
+        "We've worked with many logistics providers, but none match the reliability and transparency that Skywave Logistics delivers.",
       author: "Emma Rodriguez",
       position: "Operations Manager, FreshFoods Co.",
     },
@@ -514,11 +514,11 @@ function ContactSection() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+1 (252) 619-2452</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-primary" />
-                <span>info@logisticspro.com</span>
+                <span>info@skywavelogistics.com</span>
               </div>
             </div>
 
@@ -539,7 +539,12 @@ function ContactSection() {
 
           <div className="bg-background rounded-lg p-6 shadow-sm">
             <h3 className="text-xl font-bold mb-4">Send Us a Message</h3>
-            <form className="space-y-4">
+            <form
+              className="space-y-4"
+              name="contact"
+              method="post"
+              data-netlify="true"
+            >
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium">
@@ -603,7 +608,7 @@ function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <Truck className="h-6 w-6 text-primary" />
-              <span className="text-xl font-bold">LogisticsPro</span>
+              <span className="text-xl font-bold">Skywave Logistics</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Global logistics solutions tailored to your business needs since
@@ -798,7 +803,8 @@ function Footer() {
 
         <div className="mt-12 pt-8 border-t border-muted-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} LogisticsPro. All rights reserved.
+            &copy; {new Date().getFullYear()} Skywave Logistics. All rights
+            reserved.
           </p>
 
           <div className="flex gap-4">
