@@ -545,6 +545,7 @@ function ContactSection() {
               method="post"
               action="https://formspree.io/f/meogzgyo"
               encType="application/json"
+              data-netlify="true"
             >
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
