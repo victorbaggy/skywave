@@ -551,7 +551,12 @@ function ContactSection() {
                   <label htmlFor="name" className="text-sm font-medium">
                     Full Name
                   </label>
-                  <Input id="name" placeholder="John Doe" />
+                  <Input
+                    id="name"
+                    type="text"
+                    name="fullname"
+                    placeholder="John Doe"
+                  />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium">
@@ -560,6 +565,7 @@ function ContactSection() {
                   <Input
                     id="email"
                     type="email"
+                    name="email"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -569,14 +575,24 @@ function ContactSection() {
                 <label htmlFor="company" className="text-sm font-medium">
                   Company Name
                 </label>
-                <Input id="company" placeholder="Your Company Ltd." />
+                <Input
+                  id="company"
+                  type="text"
+                  name="company"
+                  placeholder="Your Company Ltd."
+                />
               </div>
 
               <div className="space-y-2">
                 <label htmlFor="subject" className="text-sm font-medium">
                   Subject
                 </label>
-                <Input id="subject" placeholder="How can we help you?" />
+                <Input
+                  id="subject"
+                  type="text"
+                  name="subject"
+                  placeholder="How can we help you?"
+                />
               </div>
 
               <div className="space-y-2">
@@ -585,7 +601,8 @@ function ContactSection() {
                 </label>
                 <Textarea
                   id="message"
-                  placeholder="Please provide details about your logistics needs..."
+                  name="message"
+                  placeholder="Please provide details about your needs..."
                   rows={4}
                 />
               </div>
