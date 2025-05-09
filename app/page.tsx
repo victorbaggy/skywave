@@ -544,8 +544,8 @@ function ContactSection() {
               name="contact"
               method="post"
               data-netlify="true"
+              action="https://formspree.io/f/mdoylblp"
             >
-              <Input type="hidden" name="form-name" value="contact" />
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium">
