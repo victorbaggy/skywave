@@ -543,8 +543,8 @@ function ContactSection() {
               className="space-y-4"
               name="contact"
               method="post"
-              data-netlify="true"
               action="https://formspree.io/f/mdoylblp"
+              encType="application/json"
             >
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
