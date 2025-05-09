@@ -543,7 +543,7 @@ function ContactSection() {
               className="space-y-4"
               name="contact"
               method="post"
-              action="https://formspree.io/f/mdoylblp"
+              action="https://formspree.io/f/meogzgyo"
               encType="application/json"
             >
               <div className="grid sm:grid-cols-2 gap-4">
